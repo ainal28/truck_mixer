@@ -47,25 +47,25 @@ Project ini merupakan implementasi aplikasi mobile yang terintegrasi dengan back
   <tr>
     <td align="center">
       <b>Login</b><br>
-      <img src="screenshots/login.png" width="200">
+      <img src="tm_apps/login.png" width="200">
     </td>
     <td align="center">
       <b>Dashboard</b><br>
-      <img src="screenshots/dashboard.png" width="200">
+      <img src="tm_apps/dashboard.png" width="200">
     </td>
     <td align="center">
       <b>Truck Mixer List</b><br>
-      <img src="screenshots/list.png" width="200">
+      <img src="tm_apps/list.png" width="200">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Booking</b><br>
-      <img src="screenshots/booking.png" width="200">
+      <img src="tm_apps/booking.png" width="200">
     </td>
     <td align="center">
       <b>Update Data</b><br>
-      <img src="screenshots/update.png" width="200">
+      <img src="tm_apps/update.png" width="200">
     </td>
   </tr>
 </table>
