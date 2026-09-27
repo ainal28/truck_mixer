@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F2F3F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah User"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1E1E1E"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- CARD FORM -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- USERNAME -->
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Username (986)"
+                    android:inputType="textPersonName"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/bg_edittext"
+                    android:padding="12dp"/>
+
+                <!-- PASSWORD -->
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Password (tm986)"
+                    android:inputType="textPassword"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/bg_edittext"
+                    android:padding="12dp"
+                    android:layout_marginTop="12dp"/>
+
+                <!-- ROLE -->
+                <Spinner
+                    android:id="@+id/spinnerRole"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_spinner"
+                    android:layout_marginTop="12dp"/>
+
+                <!-- NO TM -->
+                <EditText
+                    android:id="@+id/etNoTm"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="No TM (khusus driver)"
+                    android:inputType="text"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/bg_edittext"
+                    android:padding="12dp"
+                    android:layout_marginTop="12dp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- BUTTON SAVE -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="SIMPAN USER"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#003399"/>
+
+    </LinearLayout>
+</ScrollView>
