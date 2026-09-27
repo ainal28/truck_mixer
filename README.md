@@ -41,25 +41,31 @@ Project ini merupakan implementasi aplikasi mobile yang terintegrasi dengan back
 - MySQL
 - XAMPP
 - phpMyAdmin
+## 📸 Application Screenshots
 
-## 🏗️ System Architecture
-
-```text
-┌─────────────────────────┐
-│   Android Application   │
-│         Kotlin          │
-└────────────┬────────────┘
-             │
-             │ HTTP / REST API
-             ▼
-┌─────────────────────────┐
-│     Node.js + Express   │
-│        Backend API      │
-└────────────┬────────────┘
-             │
-             │ MySQL Connection
-             ▼
-┌─────────────────────────┐
-│       MySQL Database    │
-│     Truck Mixer Data    │
-└─────────────────────────┘
+<table>
+  <tr>
+    <td align="center">
+      <b>Login</b><br>
+      <img src="screenshots/login.png" width="200">
+    </td>
+    <td align="center">
+      <b>Dashboard</b><br>
+      <img src="screenshots/dashboard.png" width="200">
+    </td>
+    <td align="center">
+      <b>Truck Mixer List</b><br>
+      <img src="screenshots/list.png" width="200">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Booking</b><br>
+      <img src="screenshots/booking.png" width="200">
+    </td>
+    <td align="center">
+      <b>Update Data</b><br>
+      <img src="screenshots/update.png" width="200">
+    </td>
+  </tr>
+</table>
